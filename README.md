@@ -1,48 +1,49 @@
 # How to Build and Test the Site
 
-Make sure that you have java compiler on your machine. I'm using JDK 24.0.2 so
-try to get that version, otherwise you may encounter compiler errors. For installing a Java compiler Spring reccomends that you install [this
-one](https://bell-sw.com/pages/downloads/#jdk-24). You will also want gradle, which is what Spring Boot comes packaged with for a
-Built Tool. For instructions to install go [here](https://gradle.org/install/)
-
-Also ensure that you have git installed, if you are on windows you will want
-the git bash terminal. You will also need an account on GitHub, and you have 
-setup git to be linked to your account
-
+**Install Python**
+If you don't have python, you're going to need that. You can install it with
+winget, follow [this](https://www.youtube.com/watch?v=UvyWKHh3BcY) video
 **Clone the repo onto your machine:**
+
 ```bash
 git clone https://github.com/FredDude2004/CS442-Intro-Project.git && cd
 CS442-Intro-Project
 ```
 
 **Create a Branch**
+
 ```bash
 git checkout -b <branch-name-here>
 ```
 
-**Build and Run the program:**
+**Start a Web Server:**
+
 ```bash
-./gradlew bootRun
+cd src && python run.py
 ```
 
-**Make Your Canges and Push to Repo**
+**Make Your Changes and Push to Repo**
+
 ```bash
 git add .
 git commit -m "descriptive message"
 git commit -u origin <branch-name-here>
 ```
-Once you have everything the way that you like it make a **Pull Request** on GitHub and I will go through and merge them to the main branch. Always make sure you are up to date with 
+
+Once you have everything the way that you like it make a **Pull Request** on GitHub and I will go through and merge them to the main branch. Always make sure you are up to date by using
+
 ```bash
 git pull
 ```
+
 to avoid conflicts.
 
+## Where to make changes
 
+I put a file for each of the group members in src/pages/<your-name>.html
 
-
-
-
-
+There is a general template that you can follow or you can change it to whatever
+you want it to be
 
 ## Team Project0: Exploring the Role of AI in Software Development
 
