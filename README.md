@@ -1,29 +1,48 @@
 # How to Build and Test the Site
 
 Make sure that you have java compiler on your machine. I'm using JDK 24.0.2 so
-try to get that version, otherwise you may encounter compiler errors.
-
-For installing a Java compiler Spring reccomends that you install [this
-one](https://bell-sw.com/pages/downloads/#jdk-24).
-
-You will also want gradle, which is what Spring Boot comes packaged with for a
+try to get that version, otherwise you may encounter compiler errors. For installing a Java compiler Spring reccomends that you install [this
+one](https://bell-sw.com/pages/downloads/#jdk-24). You will also want gradle, which is what Spring Boot comes packaged with for a
 Built Tool. For instructions to install go [here](https://gradle.org/install/)
 
 Also ensure that you have git installed, if you are on windows you will want
-the git bash terminal.
+the git bash terminal. You will also need an account on GitHub, and you have 
+setup git to be linked to your account
 
-Clone the repo onto your machine:
-
+**Clone the repo onto your machine:**
 ```bash
 git clone https://github.com/FredDude2004/CS442-Intro-Project.git && cd
 CS442-Intro-Project
 ```
 
-Build and Run the program:
+**Create a Branch**
+```bash
+git checkout -b <branch-name-here>
+```
 
+**Build and Run the program:**
 ```bash
 ./gradlew bootRun
 ```
+
+**Make Your Canges and Push to Repo**
+```bash
+git add .
+git commit -m "descriptive message"
+git commit -u origin <branch-name-here>
+```
+Once you have everything the way that you like it make a **Pull Request** on GitHub and I will go through and merge them to the main branch. Always make sure you are up to date with 
+```bash
+git pull
+```
+to avoid conflicts.
+
+
+
+
+
+
+
 
 ## Team Project0: Exploring the Role of AI in Software Development
 
