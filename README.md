@@ -38,12 +38,15 @@ git pull
 
 to avoid conflicts.
 
-## Where to make changes
+**Where to make changes**
 
 I put a file for each of the group members in src/pages/<your-name>.html
 
 There is a general template that you can follow or you can change it to whatever
 you want it to be
+
+<br>
+<br>
 
 ## Team Project0: Exploring the Role of AI in Software Development
 
