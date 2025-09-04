@@ -27,7 +27,7 @@ cd src && python run.py
 ```bash
 git add .
 git commit -m "descriptive message"
-git commit -u origin <branch-name-here>
+git pull -u origin <branch-name-here>
 ```
 
 Once you have everything the way that you like it make a **Pull Request** on GitHub and I will go through and merge them to the main branch. Always make sure you are up to date by using
