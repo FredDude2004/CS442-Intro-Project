@@ -59,8 +59,11 @@ This project builds on our class discussions about the role of AI in assisting w
 Website Development:
 Collaborate with your team to build a functional website that includes the following sections:
 **Home:** A brief introduction to your team or project (if you already know what you’re doing).
+
 **Team Members:** Bios for each member, outlining their roles, skills, and contact information.
+
 **Links:** Any relevant social media profiles or project-related links.
+
 **Logo & Branding:** Create a logo and visual elements that represent your team’s identity.
 
 ### Key Options for Development:
@@ -68,8 +71,11 @@ Collaborate with your team to build a functional website that includes the follo
 #### Option 1:
 
 **Using AI Tools: Leverage AI tools to assist with various aspects of the project, such as:**
+
 **Code Generation:** Use AI to generate HTML, CSS, JavaScript, or other programming languages.
+
 **Content Creation:** AI can help write team bios, project descriptions, or other textual content.
+
 **Design Assistance:** Use AI tools for logo generation, UI/UX design, and layout suggestions.
 
 Evaluate the pros and cons of AI-generated content and code during the process. Test AI tools for efficiency, ease of use, and limitations.
@@ -77,16 +83,20 @@ Evaluate the pros and cons of AI-generated content and code during the process. 
 #### Option 2:
 
 **Traditional Development (Without AI)**
+
 If you prefer not to use AI tools, you can build the entire website manually using traditional development methods (HTML, CSS, JavaScript, etc.).
 Collaboration and Workflow:
 Regardless of your approach, collaborate closely with your teammates to define the design and structure of the website.
 If using AI tools, ensure you understand their capabilities and limitations. You may still need to manually fine-tune or adjust the output to ensure it meets your vision and quality standards.
 
 **Reflection and Report:**
+
 After completing the project, write a short reflection comparing your experience using AI (or not) during development.
 Address the following questions:
 If you used AI tools:
+
 **Document AI Usage:**
+
 Be sure to document which parts of the project utilized AI tools and describe how they contributed to the process. Evaluate the pros and cons of AI-generated content and code during the project.
 What strengths did AI bring to the process? How did it speed up development or improve your workflow?
 What limitations did you encounter? Were there areas where AI-generated content or code needed significant refinement?
