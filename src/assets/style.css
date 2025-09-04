@@ -184,7 +184,6 @@ body {
 /* Feature Cards */
 .features {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     padding: 4rem 0;
 }
@@ -221,9 +220,10 @@ body {
     margin-bottom: 1rem;
 }
 
-.feature-card p {
+.feature-card .description {
     color: var(--text-white-transparent-80);
     line-height: 1.6;
+    text-align: left;
 }
 
 /* Content Pages */
@@ -248,6 +248,15 @@ body {
     font-size: 1.2rem;
     line-height: 1.8;
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.description {
+    color: var(--text-white-transparent-90);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: left;
     max-width: 800px;
     margin: 0 auto;
 }
