@@ -106,6 +106,27 @@ body {
     background: var(--bg-glass-active);
 }
 
+a {
+    color: var(--accent-gradient-end);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+a:hover {
+    background: var(--bg-glass-active);
+    transform: translateY(-2px);
+}
+
+a.active {
+    background: var(--bg-glass-active);
+}
+
 /* Main Content */
 .main-content {
     margin-top: 80px;
