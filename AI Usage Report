@@ -14,11 +14,11 @@ not worse, or maybe slightly better.
 Anthropic's Claude Code generated a single index.html file with a style and script tag, making
 a sleek modern Single Page Application (SPA). To make this easier for the team to understand
 and modify we went ahead and broke the code into multiple files, seperating concerns and
-making it easier to extend and change. One thing that the AI did poorly that we changed was
-the use of "Magic Numbers" for the colors in the style page. The model just hardcoded all of
+making it easier to extend and change. One thing that the AI did poorly was the use of 
+"Magic Numbers" for the colors in the style page. The model just hardcoded all of
 the values for the background and font colors, so we went and manually made global variables
 and substituded all the values with the variables, once again making it easier to maintain.
-Also the color theme that the model chose was quite horrendous if you ask me.
+Also the color theme that the model chose was quite horrendous.
 
 Using AI in this case was just a good idea, it is something that is simple and has been done
 thousands of times before. We beleive that AI is an excellent tool especially in cases where
