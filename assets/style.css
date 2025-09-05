@@ -182,6 +182,13 @@ body {
 }
 
 /* Feature Cards */
+.features-home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
 .features {
     display: grid;
     gap: 2rem;
