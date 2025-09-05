@@ -1,3 +1,31 @@
+# Report on Collaborating with AI to Design a Simple HTML Website
+
+**Team Fried Eggs:** Kaleb Duchesneau, Abdelrahman Ahmed, Dermot Hickey, Jay Patel
+
+In this project, we used a couple of different LLM's to streamline the design process.
+The page was made with vanilla HTML, CSS and JavaScript. Which is something that has been
+done thousands of time before, which makes the models excel at this aspect. So There really
+is no point in doing it yourself. We could have, but that would have taken an astronomical
+amount of time that could have been allocated to studying for other class, social activites,
+smelling the roses and overall enjoying life. And in the end we would have the same result if
+not worse, or maybe slightly better.
+
+Anthropic's Claude Code generated a single index.html file with a style and script tag, making
+a sleek modern Single Page Application (SPA). To make this easier for the team to understand
+and modify we went ahead and broke the code into multiple files, seperating concerns and
+making it easier to extend and change. One thing that the AI did poorly was the use of
+"Magic Numbers" for the colors in the style page. The model just hardcoded all of
+the values for the background and font colors, so we went and manually made global variables
+and substituded all the values with the variables, once again making it easier to maintain.
+Also the color theme that the model chose was quite horrendous.
+
+Using AI in this case was just a good idea, it is something that is simple and has been done
+thousands of times before. We beleive that AI is an excellent tool especially in cases where
+things don't really have an impact. Like the color of the page and the design is something
+that you can spend a lifetime learning about and mastering, or you can just have AI generate
+a modern design that is sleek and follows all of the best practices, without sinking days
+of your life trying to get a box to be the right size.
+
 # How to Build and Test the Site
 
 **Install Python**
@@ -46,9 +74,8 @@ There is a general template that you can follow or you can change it to whatever
 you want it to be
 
 <br>
-<br>
 
-## Team Project0: Exploring the Role of AI in Software Development
+# Team Project0: Exploring the Role of AI in Software Development
 
 ## Objective:
 
